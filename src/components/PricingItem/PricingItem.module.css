@@ -1,0 +1,51 @@
+.button {
+  display: block;
+  border: none;
+  outline: none;
+  width: 150px;
+  height: 40px;
+  background: teal;
+  color: white;
+  font-size: 20px;
+}
+.button:hover {
+  background: #01ff70;
+  color: #85144b;
+  box-shadow: 0 0 10px rgba(0.8, 0.5, 0.5, 0.6);
+}
+.tarif_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+  height: 500px;
+  background: white;
+  text-align: center;
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  justify-content: flex-end;
+}
+.tarif_item:not(:last-of-type) {
+  margin-right: 10px;
+}
+.tarif_item:hover {
+  box-shadow: 0 0 10px rgba(0.8, 0.5, 0.5, 0.6);
+}
+
+.tarif {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.text {
+  margin-bottom: 10px;
+  color: gray;
+}
+.price {
+  margin-bottom: 10px;
+  color: gray;
+  font-size: 30px;
+}
+.tarif_img {
+  margin-bottom: 10px;
+}
